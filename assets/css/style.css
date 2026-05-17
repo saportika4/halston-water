@@ -9322,6 +9322,17 @@ blockquote.vs-quote .quote-author {
   max-width: 400px;
 }
 
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  left: 22px;
+  z-index: 999;
+}
+
+.whatsapp-logo {
+  max-width: 70px !important;
+}
+
 @media (max-width: 575px) {
   .preloader-inner img {
     max-width: 200px;
@@ -9334,17 +9345,10 @@ blockquote.vs-quote .quote-author {
   .footer-logo a img {
     max-width: 220px;
   }
-}
 
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  left: 22px;
-  z-index: 999;
-}
-
-.whatsapp-logo {
-  max-width: 70px !important;
+  .whatsapp-logo {
+    max-width: 56px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
