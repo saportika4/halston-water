@@ -5305,7 +5305,7 @@ blockquote.vs-quote .quote-author {
   margin-right: 12px;
 }
 .vs-hero__title {
-  font-size: 80px;
+  font-size: 50px;
   color: var(--white-color);
   text-transform: uppercase;
   line-height: 94%;
@@ -5378,8 +5378,8 @@ blockquote.vs-quote .quote-author {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgb(3, 39, 44);
-  background: linear-gradient(94deg, rgba(3, 39, 44, 0.8267682073) 0%, rgba(6, 58, 65, 0) 100%);
+  background: rgb(15 81 90);
+  /* background: linear-gradient(94deg, rgba(3, 39, 44, 0.8267682073) 0%, rgba(6, 58, 65, 0) 100%); */
 }
 .vs-hero__layout1 .vs-hero__item .dot-shape {
   position: absolute;
@@ -9348,6 +9348,14 @@ blockquote.vs-quote .quote-author {
 
   .whatsapp-logo {
     max-width: 56px !important;
+  }
+
+  .hero-mob {
+    display: none;
+  }
+
+  .vs-hero__content {
+    padding: 55px 0px 80px 15px;
   }
 }
 
