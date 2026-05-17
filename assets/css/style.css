@@ -5483,7 +5483,7 @@ blockquote.vs-quote .quote-author {
 /* Small devices */
 @media (max-width: 767px) {
   .vs-hero__layout1 .vs-hero__title {
-    font-size: 42px;
+    font-size: 34px;
   }
 }
 /* Extra small devices */
