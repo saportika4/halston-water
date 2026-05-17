@@ -2132,7 +2132,7 @@ a.text-theme:hover,
 @media (max-width: 767px) {
   .back-to-top {
     --back-to-top-size: 60px;
-    bottom: 80px;
+    /* bottom: 80px; */
     right: 10px;
   }
 }
@@ -2923,7 +2923,7 @@ a.text-theme:hover,
   text-transform: capitalize;
 }
 .footer-widget.widget_meta, .footer-widget.widget_pages, .footer-widget.widget_archive, .footer-widget.widget_categories, .footer-widget.widget_nav_menu {
-  margin-bottom: 45px;
+  margin-bottom: 0;
 }
 .footer-widget.widget_meta ul ul, .footer-widget.widget_pages ul ul, .footer-widget.widget_archive ul ul, .footer-widget.widget_categories ul ul, .footer-widget.widget_nav_menu ul ul {
   margin-top: 0;
@@ -2978,7 +2978,7 @@ a.text-theme:hover,
   }
   .footer-widget .widget_title {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .footer-widget .footer-menu a {
     font-size: 16px;
@@ -3895,7 +3895,7 @@ a.text-theme:hover,
 }
 .footer-layout1 .widget_title {
   position: relative;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
 }
 .footer-layout1 .widget_title::before {
   content: "";
@@ -4131,7 +4131,7 @@ a.text-theme:hover,
 /* Medium devices */
 @media (max-width: 991px) {
   .copyright-wrap {
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
   }
 }
 /* Medium devices */
@@ -5364,6 +5364,8 @@ blockquote.vs-quote .quote-author {
 .vs-hero__layout1 .main-img img {
   width: 100%;
   max-height: 820px;
+  min-height: 820px;
+  object-fit: cover;
   position: relative;
 }
 .vs-hero__layout1 .vs-hero__item {
@@ -9324,6 +9326,25 @@ blockquote.vs-quote .quote-author {
   .preloader-inner img {
     max-width: 200px;
   }
+
+  .header-top {
+    display: none;
+  }
+
+  .footer-logo a img {
+    max-width: 220px;
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  left: 22px;
+  z-index: 999;
+}
+
+.whatsapp-logo {
+  max-width: 70px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
